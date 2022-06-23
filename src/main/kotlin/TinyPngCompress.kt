@@ -3,8 +3,6 @@ import com.tinify.Tinify
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.runBlocking
 import java.io.File
-import java.io.FileInputStream
-import java.io.FileOutputStream
 
 interface SomethingNeedToImplement {
 
@@ -20,7 +18,7 @@ interface SomethingNeedToImplement {
     fun pngCacheSavePath(): String
 }
 
-class SomethingNeedToImplementSample: SomethingNeedToImplement {
+class SomethingNeedToImplementSample : SomethingNeedToImplement {
 
     override fun mercuryProjectPath(): String {
         return "/Users/ceuilisa/Desktop/code/Mercury"
